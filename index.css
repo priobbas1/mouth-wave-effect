@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    min-height: 3rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: white;
+    font-size: 24px;
+}
+
+.header-scrolled {
+    background-color: gray;
+}
+
+svg {
+    transform: rotate(180deg)
+}
+
+.wave2 {
+    transform: translateY(1rem);
+}
+
+li:hover {
+    translate: translateY(1rem);
+}
+
+#root {
+    min-height: 1000vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    background-color: black;
+}
+
+footer {
+    min-height: 3rem;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+nav {
+    padding: 2rem;
+}
